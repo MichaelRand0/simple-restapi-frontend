@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+button, input {
+    outline: none;
+    background-color: transparent;
+}
 
+button {
+    cursor: pointer;
 }
